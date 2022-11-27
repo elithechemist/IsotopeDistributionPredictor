@@ -4,8 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="796fc9ae-a700-4fff-bf05-0f2a80bf57d7" name="Changes" comment="">
+    <list default="true" id="796fc9ae-a700-4fff-bf05-0f2a80bf57d7" name="Changes" comment="First commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README" beforeDir="false" afterPath="$PROJECT_DIR$/README" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/ChemicalFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/ChemicalFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/ProteinChemicalFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/ProteinChemicalFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/SimpleChemicalFormula.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/chemicalformulas/chemicalformulasfx/SimpleChemicalFormula.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developmenttools/chemicalformulasfx/AtomicNumberToSymbol.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developmenttools/chemicalformulasfx/AtomicNumberToSymbol.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/developmenttools/chemicalformulasfx/ValidMFTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/developmenttools/chemicalformulasfx/ValidMFTester.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fx/benzene.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/fx/chemicalformulasfx/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/fx/chemicalformulasfx/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/massspec/chemicalformulasfx/MassSpec.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/massspec/chemicalformulasfx/MassSpec.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/com/example/chemicalformulasfx/hello-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/example/chemicalformulasfx/hello-view.fxml" afterDir="false" />
     </list>
@@ -14,21 +24,116 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="2I71ZQGSfuu77RWJoQFAhnGhrPD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="AtomicNumberToSymbol" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.developmenttools.chemicalformulasfx.AtomicNumberToSymbol" />
+      <module name="ChemicalFormulasFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.developmenttools.chemicalformulasfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fx.chemicalformulasfx.Main" />
+      <module name="ChemicalFormulasFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fx.chemicalformulasfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MassSpecGraphics" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fx.chemicalformulasfx.MassSpecGraphics" />
+      <module name="ChemicalFormulasFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fx.chemicalformulasfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ValidMFTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.text.chemicalformulasfx.ValidMFTester" />
+      <module name="ChemicalFormulasFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.text.chemicalformulasfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="com.test.chemicalformulasfx.ValidMFTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.chemicalformulasfx.ValidMFTester" />
+      <module name="ChemicalFormulasFX" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.chemicalformulasfx.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.AtomicNumberToSymbol" />
+        <item itemvalue="Application.com.test.chemicalformulasfx.ValidMFTester" />
+        <item itemvalue="Application.ValidMFTester" />
+        <item itemvalue="Application.MassSpecGraphics" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -50,5 +155,21 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="First commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="First commit" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/fx/chemicalformulasfx/Main.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

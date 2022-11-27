@@ -1,3 +1,5 @@
+package com.chemicalformulas.chemicalformulasfx;
+
 import java.util.Arrays;
 
 public class ProteinChemicalFormula extends ChemicalFormula {
@@ -26,22 +28,25 @@ public class ProteinChemicalFormula extends ChemicalFormula {
     }
 
     protected Integer[] toArray(String cleanString, Integer[] elementsArray) {
-        String tempString;
-        int i = 0;
-        int numPeptideBonds;
-        while (i < cleanString.length()) {
-            tempString = "";
-            while (i < cleanString.length() && cleanString.charAt(i) != '-') {
-                tempString += cleanString.charAt(i);
-                i++;
-                if(i < cleanString.length() && cleanString.charAt(i) == '-') {
-                    elementsArray = subtractWaterElementsArray(elementsArray);
+        try {
+            String tempString;
+            int i = 0;
+            int numPeptideBonds;
+            while (i < cleanString.length()) {
+                tempString = "";
+                while (i < cleanString.length() && cleanString.charAt(i) != '-') {
+                    tempString += cleanString.charAt(i);
+                    i++;
+                    if (i < cleanString.length() && cleanString.charAt(i) == '-') {
+                        elementsArray = subtractWaterElementsArray(elementsArray);
+                    }
                 }
+                elementsArray = addAminoAcidElementsArray(tempString, elementsArray);
+                i++;
             }
-            elementsArray = addAminoAcidElementsArray(tempString, elementsArray);
-            i++;
+        } catch(Exception e) {
+            elementsArray[0] = -1;
         }
-
         return elementsArray;
     }
 

@@ -1,4 +1,4 @@
-package com.test.chemicalformulasfx;
+package com.developmenttools.chemicalformulasfx;
 
 import com.chemicalformulas.chemicalformulasfx.SimpleChemicalFormula;
 

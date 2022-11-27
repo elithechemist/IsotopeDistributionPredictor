@@ -1,3 +1,5 @@
+package com.chemicalformulas.chemicalformulasfx;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -12,19 +14,24 @@ public class SimpleChemicalFormula extends ChemicalFormula {
         return simpleToArray(chemicalFormulaString, elementArray);
     }
     private Integer[] simpleToArray(String simpleChemicalFormulaString, Integer[] elementArray) {
-        String tempElementString = "";
-        int index = 0;
-        while(index != simpleChemicalFormulaString.length()) {
-            do {
-                tempElementString += simpleChemicalFormulaString.charAt(index);
-                ++index;
-                if(index == simpleChemicalFormulaString.length())
-                    break;
-            } while (!Character.isUpperCase(simpleChemicalFormulaString.charAt(index)));
-            // System.out.println(tempElementString);
-            Integer[] tempArray = subStringToArray(tempElementString);
-            elementArray[tempArray[0]] += tempArray[1];
-            tempElementString = "";
+        try {
+            String tempElementString = "";
+            int index = 0;
+            while(index != simpleChemicalFormulaString.length()) {
+                // Our example of a do-while loop
+                do {
+                    tempElementString += simpleChemicalFormulaString.charAt(index);
+                    ++index;
+                    if (index == simpleChemicalFormulaString.length())
+                        break;
+                } while (!Character.isUpperCase(simpleChemicalFormulaString.charAt(index)));
+                // System.out.println(tempElementString);
+                Integer[] tempArray = subStringToArray(tempElementString);
+                elementArray[tempArray[0]] += tempArray[1];
+                tempElementString = "";
+            }
+        } catch(Exception e) {
+            elementsArray[0] = -1;
         }
         return elementArray;
     }

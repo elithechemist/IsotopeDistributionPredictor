@@ -1,0 +1,25 @@
+This program is designed to convert a molecular formula string of two types (1) simple or (2) protein into a usable
+object on which calculations can be performed.
+
+The following conventions must be followed when using the SimpleMolecularFormula class:
+    - No parentheses are allowed (e.g. Na2(SO4)) is not valid
+    - All elements are case sensitive (e.g. nacl is not valid but NaCl is valid)
+    - If only one of an element is present, a number is not necessary (e.g. H2O1 and H2O are both valid)
+The following conventions must be followed when using the ProteinMolecularFormula class:
+    - All amino acids must be separated by dashes (e.g. Phe-Ala is valid but PheAla is not)
+    - Either three-letter or one-letter abbreviations can be used (e.g. Gly and G are both valid)
+    - Three- and one-letter abbreviations are both case sensitive (e.g. gly-gly or g-g are not valid)
+
+After starting the program, a GUI interface will pop up. The upper left-hand corner is for data input. In the text box,
+the molecular formula can be entered using the conventions listed above. After entering the molecular formula, the radio
+button for either protein or simple molecular formula must be selected. NOTE: if the incorrect button is selected,
+the program will not parse the molecular formula.
+
+Next, the "Generate Data" button can be pressed. One pressed, the box on the right (labeled "Chemical Information") will
+display the molecular weight of the molecule along with the uncertainty of the calculation. Calculations are based on
+data from the International Union of Pure and Applied Chemistry (IUPAC). The graph displayed below shows a simulated
+mass spectrum of the given molecular formula. This simulated mass spectrum is based on isotopic abundance data from
+IUPAC. The legend shows the molecular formula with elements separated by brackets.
+
+NOTE: The legend for the simulated mass spectrum can sometimes show unexpected results. To fix this, simply press the
+generate data button again.

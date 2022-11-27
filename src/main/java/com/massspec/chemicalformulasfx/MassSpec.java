@@ -1,3 +1,7 @@
+package com.massspec.chemicalformulasfx;
+
+import com.chemicalformulas.chemicalformulasfx.ChemicalFormula;
+
 import java.math.BigDecimal;
 
 public class MassSpec {
@@ -75,6 +79,7 @@ public class MassSpec {
         massSpecPeaks[0][1] = 1;
 
         // Loop distributes the abundance across 10 mass spec peaks
+        // One of our examples of nested loops (this is actually 4 nested for loops!)
         for(int i = 0; i < 114; i++) {
             // First loop (i) loops through each possible element
             for(int j = 0; j < this.elementsArray[i]; j++) {
