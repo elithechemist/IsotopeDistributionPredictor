@@ -1,3 +1,5 @@
+***For an example of what the GUI inteface should look like, go to the "Isotopic_Distribution_Data" image***
+
 This program is designed to convert a molecular formula string of two types (1) simple or (2) protein into a usable
 object on which calculations can be performed.
 
